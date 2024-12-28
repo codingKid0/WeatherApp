@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="SubmitButton">ورود</string>
+    <string name="Username_EditText">نام کاربری</string>
+    <string name="Password_EditText">رمز عبور</string>
+    <string name="AddLocationIcon">Add Location icon</string>
+    <string name="CityTitle">شهر نامعلوم</string>
+    <string name="WeatherStatus">Shows the current weather with an icon</string>
+    <string name="CityTemp">دمای نامعلوم</string>
+    <string name="CityDescription">وضعیت نامعلوم</string>
+    <string name="UserLabel">کاربر: hassan</string>
+<!--    <string name="UnknownWeather">آب و هوای نامعلوم</string>-->
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/WeatherIconImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".29"
+        app:srcCompat="@drawable/weather_icon" />
+
+    <EditText
+        android:id="@+id/UsernameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corners"
+        android:backgroundTint="@color/Secondary"
+        android:textColor="@color/Background"
+        android:textColorHint="@color/BackgroundLite"
+        android:ems="10"
+        android:inputType="text"
+        android:fontFamily="@font/kalameh_regular"
+        android:hint="@string/Username_EditText"
+        android:paddingVertical="8dp"
+        android:paddingEnd="15dp"
+        android:textDirection="rtl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".51" />
+
+    <EditText
+        android:id="@+id/PasswordEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corners"
+        android:backgroundTint="@color/Secondary"
+        android:textColor="@color/Background"
+        android:textColorHint="@color/BackgroundLite"
+        android:ems="10"
+        android:textDirection="rtl"
+        android:fontFamily="@font/kalameh_regular"
+        android:hint="@string/Password_EditText"
+        android:inputType="textPassword"
+        android:textAlignment="textEnd"
+        android:paddingVertical="8dp"
+        android:paddingEnd="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".6" />
+
+    <Button
+        android:id="@+id/SubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corners"
+        android:fontFamily="@font/kalameh_black"
+        android:textColor="@color/white"
+        android:paddingHorizontal="122dp"
+        android:paddingVertical="9dp"
+        android:text="@string/SubmitButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
